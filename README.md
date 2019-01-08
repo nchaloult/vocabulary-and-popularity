@@ -9,3 +9,5 @@ Web page built for my presentation of a data visualization assignment for an Eng
 The visualizations that are GIFs were built using Adobe Illustrator and Adobe After Effects. The interactive visualizations on the final web page were built with Tableau.
 
 ![President readability score visualization](https://user-images.githubusercontent.com/31291920/50862980-313cb000-136b-11e9-82b6-e5dc265153dc.gif)
+
+The banner showcasing with Trump and Kennedy was made in Adobe Photoshop.
