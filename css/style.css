@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'fjallaOne';
+    src: url('../res/fonts/fjallaOne.ttf');
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url('../res/fonts/mont.ttf');
+}
+
+@font-face {
+    font-family: 'playfair';
+    src: url('../res/fonts/playfair.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    font-family: 'mont', sans-serif;
+    color: #212121;
+}
+
+h1 {
+    font-family: 'playfair', serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    margin: 2em 0em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+}
+
+.dark {
+    padding: 3em;
+    background: #e6e6e6;
+}
+
+.superDark {
+    padding: 3em;
+    background: #212121;
+    text-align: center;
+}
+
+.superDark h3 {
+    font-family: 'mont', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.superDark ul li {
+    color: #fff;
+}
+
+.footer {
+    padding: 1em;
+    background: #111;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.light {
+    padding: 3em;
+    background: #fff;
+}
+
+.gifViz {
+    margin: 2em 0em;
+    width: 100%;
+}
+
+.vizPlaceholder {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 1em 0em;
+    padding: 2em;
+    width: 46em;
+    height: 26em;
+    background: none;
+    border: 5px solid #212121;
+    text-align: center;
+}
+
+.tableauContainer {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2em 0em;
+    width: 60%;
+}
+
+#particles-js {
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+#openingBanner {
+    height: 100vh;
+    max-width: 100%;
+    background: url(../res/openingBannerFade.png) no-repeat;
+    background-size: cover;
+}
+
+#openingCard {
+    z-index: 3;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    max-width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#openingCard h1 {
+    font-family: 'fjallaOne';
+    font-size: 5em;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+
+#nameTab {
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1em;
+    padding: 1em 4em;
+    text-align: center;
+    border-bottom: 2px solid #212121;
+}
+
+#nameTab h2, h3 {
+    font-family: 'playfair', serif;
+}
+
+#diffViz {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2em;
+    width: 1200px;
+    background: #fff;
+}
